@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" href="/img/new-moon.png">
+    <script src="index.js" defer></script>
+    <title>Gradient viewer &mdash; makes design easy</title>
+</head>
+<body class="body">
+    <section class="section-grad pad24 flex flex-1">
+        <form class="form-gradient flex flex-1 gap48">
+            <div class="credentials flex flex-dir gap08">
+                <label class="label">First gradient</label>
+                <input class="input grad1" placeholder="#ffffff">
+            </div>
+            <div class="credentials flex flex-dir gap08">
+                <label class="label">Second gradient</label>
+                <input class="input grad2" placeholder="#ffffff">
+            </div>
+            <div class="credentials flex flex-dir gap08">
+                <label class="label">Angle</label>
+                <input class="input scale" placeholder="#ffffff" min="0" max="360" type="number">
+            </div>
+            <div class="credentials flex flex-dir gap08">
+                <label class="label">Choose direction</label>
+                <select class="select direction">
+                    <option value="choose">choose</option>
+                    <option value="to left">to left</option>
+                    <option value="to right">to right</option>
+                    <option value="to top">to top</option>
+                    <option value="to bottom">to bottom</option>
+                    <option value="to left bottom">to left bottom</option>
+                    <option value="to left bottom">to right bottom</option>
+                </select>
+            </div>
+            <div class="credentials flex flex-dir gap08">
+                <label class="label">Save</label>
+                <button class="button">Save as last</button>
+            </div>
+        </form>
+        <section class="grad-saver pad16 flex flex-dir gap16">
+            <h2 class="secondary-heading">Last used</h2>
+            <div class="saved-grads pad16 flex flex-1 gap24">
+                <p class="grad-save1">#e7e7e7</p>
+                <p class="grad-save2">#000000</p>
+            </div>
+        </section>
+    </section>
+</body>
+</html>

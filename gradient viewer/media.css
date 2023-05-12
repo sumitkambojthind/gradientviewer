@@ -1,0 +1,43 @@
+@media (max-width:1050px){
+    .form-gradient{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 4.8rem;
+    }
+}
+
+@media (max-width:750px){
+    .form-gradient{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2.4rem;
+    }
+    .input,.select,.button{
+        padding: 0.5rem;
+    }
+    .grad-save1,.grad-save2{
+        padding: 0.5rem 1rem;
+    }
+    .grad-saver{
+        padding: 0.8rem;
+    }
+}
+
+
+@media (max-width:650px){
+    .form-gradient{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2.4rem;
+    }
+    
+}
+
+@media (max-width:480px){
+    .form-gradient{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2.4rem;
+    }
+    
+}
